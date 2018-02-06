@@ -1,10 +1,10 @@
 .data
 
-stageWidth:		.half 32			# Store stage size
+stageWidth:		.half 16			# Store stage size
 stageHeight:		.half 32			# Usual settings $gp, 32x32, 16xScaling, 512x512
 
 carX:			.half 5
-carY:			.half 5
+carY:			.half 25
 
 carColour:		.word 0x0022CC22		# Store colour to draw objects
 bgColour:		.word 0xFF003300		# Store colour to draw background
